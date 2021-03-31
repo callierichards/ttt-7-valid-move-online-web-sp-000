@@ -6,9 +6,7 @@ else
     return false
   end
 end
-
-
-    # def position_taken?(board, index="X")
+  # def position_taken?(board, index="X")
 def position_taken?(board, index="X")
 
 if board[index] == "" || board[index] == " " || board[index] == nil
